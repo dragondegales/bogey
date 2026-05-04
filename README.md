@@ -21,7 +21,13 @@ No GPS shot tracking, no clubs database, no analytics, no coaching, no upsells. 
 
 ## Screenshots
 
-<!-- TODO: add watch screenshots -->
+<p align="center">
+  <img src=".github/screenshot-stroke.png" alt="Stroke play — four players, scores relative to par" width="190">
+  &nbsp;&nbsp;
+  <img src=".github/screenshot-points.png" alt="Points match — four players, running hole points" width="190">
+  &nbsp;&nbsp;
+  <img src=".github/screenshot-stableford.png" alt="Stableford — four players, cumulative points" width="190">
+</p>
 
 ## Install
 

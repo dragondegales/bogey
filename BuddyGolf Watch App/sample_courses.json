@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2A89B0A0-16AB-4D72-BF18-6D90F16F16A1",
+    "name": "ASR Golf / Los Angeles de San Rafael",
+    "holes": [
+      { "holeNumber": 1, "greenLatitude": 40.865450, "greenLongitude": -4.238150, "par": 4 },
+      { "holeNumber": 2, "greenLatitude": 40.865900, "greenLongitude": -4.237800, "par": 4 },
+      { "holeNumber": 3, "greenLatitude": 40.866350, "greenLongitude": -4.237450, "par": 3 },
+      { "holeNumber": 4, "greenLatitude": 40.866800, "greenLongitude": -4.237100, "par": 4 },
+      { "holeNumber": 5, "greenLatitude": 40.867250, "greenLongitude": -4.236750, "par": 5 },
+      { "holeNumber": 6, "greenLatitude": 40.867700, "greenLongitude": -4.236400, "par": 4 },
+      { "holeNumber": 7, "greenLatitude": 40.868150, "greenLongitude": -4.236050, "par": 3 },
+      { "holeNumber": 8, "greenLatitude": 40.868600, "greenLongitude": -4.235700, "par": 4 },
+      { "holeNumber": 9, "greenLatitude": 40.869050, "greenLongitude": -4.235350, "par": 5 },
+      { "holeNumber": 10, "greenLatitude": 40.869500, "greenLongitude": -4.235000, "par": 4 },
+      { "holeNumber": 11, "greenLatitude": 40.869950, "greenLongitude": -4.234650, "par": 4 },
+      { "holeNumber": 12, "greenLatitude": 40.870400, "greenLongitude": -4.234300, "par": 3 },
+      { "holeNumber": 13, "greenLatitude": 40.870850, "greenLongitude": -4.233950, "par": 4 },
+      { "holeNumber": 14, "greenLatitude": 40.871300, "greenLongitude": -4.233600, "par": 4 },
+      { "holeNumber": 15, "greenLatitude": 40.871750, "greenLongitude": -4.233250, "par": 5 },
+      { "holeNumber": 16, "greenLatitude": 40.872200, "greenLongitude": -4.232900, "par": 3 },
+      { "holeNumber": 17, "greenLatitude": 40.872650, "greenLongitude": -4.232550, "par": 4 },
+      { "holeNumber": 18, "greenLatitude": 40.873100, "greenLongitude": -4.232200, "par": 4 }
+    ]
+  },
+  {
+    "id": "A8F0BDB5-1B3D-4A4C-9F6D-3A9B94D7C2E4",
+    "name": "Real Club de Golf Lomas-Bosque",
+    "holes": [
+      { "holeNumber": 1, "greenLatitude": 40.387900, "greenLongitude": -3.938800, "par": 5, "strokeIndex": 1, "teeDistancesMeters": { "black": 480, "white": 468, "yellow": 446, "red": 395, "green": 341 } },
+      { "holeNumber": 2, "greenLatitude": 40.389200, "greenLongitude": -3.939800, "par": 3, "strokeIndex": 18, "teeDistancesMeters": { "black": 82, "white": 76, "yellow": 77, "red": 70, "green": 70 } },
+      { "holeNumber": 3, "greenLatitude": 40.388100, "greenLongitude": -3.941200, "par": 4, "strokeIndex": 3, "teeDistancesMeters": { "black": 395, "white": 394, "yellow": 343, "red": 337, "green": 289 } },
+      { "holeNumber": 4, "greenLatitude": 40.386600, "greenLongitude": -3.942000, "par": 4, "strokeIndex": 6, "teeDistancesMeters": { "black": 370, "white": 350, "yellow": 324, "red": 317, "green": 278 } },
+      { "holeNumber": 5, "greenLatitude": 40.385100, "greenLongitude": -3.942700, "par": 3, "strokeIndex": 13, "teeDistancesMeters": { "black": 157, "white": 145, "yellow": 125, "red": 112, "green": 112 } },
+      { "holeNumber": 6, "greenLatitude": 40.384000, "greenLongitude": -3.941400, "par": 4, "strokeIndex": 9, "teeDistancesMeters": { "black": 345, "white": 306, "yellow": 288, "red": 279, "green": 235 } },
+      { "holeNumber": 7, "greenLatitude": 40.382800, "greenLongitude": -3.940000, "par": 5, "strokeIndex": 12, "teeDistancesMeters": { "black": 454, "white": 445, "yellow": 405, "red": 397, "green": 350 } },
+      { "holeNumber": 8, "greenLatitude": 40.381500, "greenLongitude": -3.939100, "par": 4, "strokeIndex": 14, "teeDistancesMeters": { "black": 286, "white": 281, "yellow": 265, "red": 259, "green": 259 } },
+      { "holeNumber": 9, "greenLatitude": 40.380600, "greenLongitude": -3.940500, "par": 4, "strokeIndex": 16, "teeDistancesMeters": { "black": 301, "white": 289, "yellow": 265, "red": 261, "green": 261 } },
+      { "holeNumber": 10, "greenLatitude": 40.381700, "greenLongitude": -3.946200, "par": 4, "strokeIndex": 2, "teeDistancesMeters": { "black": 386, "white": 372, "yellow": 355, "red": 349, "green": 298 } },
+      { "holeNumber": 11, "greenLatitude": 40.382800, "greenLongitude": -3.947800, "par": 4, "strokeIndex": 5, "teeDistancesMeters": { "black": 390, "white": 371, "yellow": 335, "red": 303, "green": 270 } },
+      { "holeNumber": 12, "greenLatitude": 40.384200, "greenLongitude": -3.946300, "par": 4, "strokeIndex": 7, "teeDistancesMeters": { "black": 395, "white": 364, "yellow": 325, "red": 308, "green": 292 } },
+      { "holeNumber": 13, "greenLatitude": 40.385300, "greenLongitude": -3.944700, "par": 4, "strokeIndex": 8, "teeDistancesMeters": { "black": 382, "white": 364, "yellow": 328, "red": 314, "green": 314 } },
+      { "holeNumber": 14, "greenLatitude": 40.386800, "greenLongitude": -3.946000, "par": 3, "strokeIndex": 17, "teeDistancesMeters": { "black": 165, "white": 157, "yellow": 120, "red": 94, "green": 94 } },
+      { "holeNumber": 15, "greenLatitude": 40.387900, "greenLongitude": -3.944500, "par": 4, "strokeIndex": 4, "teeDistancesMeters": { "black": 401, "white": 384, "yellow": 336, "red": 331, "green": 280 } },
+      { "holeNumber": 16, "greenLatitude": 40.388700, "greenLongitude": -3.946700, "par": 4, "strokeIndex": 10, "teeDistancesMeters": { "black": 527, "white": 514, "yellow": 443, "red": 410, "green": 350 } },
+      { "holeNumber": 17, "greenLatitude": 40.389200, "greenLongitude": -3.944800, "par": 3, "strokeIndex": 15, "teeDistancesMeters": { "black": 169, "white": 153, "yellow": 116, "red": 109, "green": 109 } },
+      { "holeNumber": 18, "greenLatitude": 40.387500, "greenLongitude": -3.943300, "par": 5, "strokeIndex": 11, "teeDistancesMeters": { "black": 456, "white": 436, "yellow": 392, "red": 384, "green": 345 } }
+    ]
+  },
+  {
+    "id": "4D8D2F66-7D78-4E93-BF4D-1D9F1E2A7B55",
+    "name": "Plaza de Espana test",
+    "holes": [
+      { "holeNumber": 1, "greenLatitude": 40.423980, "greenLongitude": -3.712580, "par": 4 },
+      { "holeNumber": 2, "greenLatitude": 40.424180, "greenLongitude": -3.711920, "par": 4 },
+      { "holeNumber": 3, "greenLatitude": 40.423720, "greenLongitude": -3.711280, "par": 3 },
+      { "holeNumber": 4, "greenLatitude": 40.423140, "greenLongitude": -3.711050, "par": 4 },
+      { "holeNumber": 5, "greenLatitude": 40.422520, "greenLongitude": -3.711360, "par": 5 },
+      { "holeNumber": 6, "greenLatitude": 40.422120, "greenLongitude": -3.712060, "par": 4 },
+      { "holeNumber": 7, "greenLatitude": 40.422240, "greenLongitude": -3.712940, "par": 3 },
+      { "holeNumber": 8, "greenLatitude": 40.422820, "greenLongitude": -3.713520, "par": 4 },
+      { "holeNumber": 9, "greenLatitude": 40.423540, "greenLongitude": -3.713720, "par": 5 },
+      { "holeNumber": 10, "greenLatitude": 40.424200, "greenLongitude": -3.713300, "par": 4 },
+      { "holeNumber": 11, "greenLatitude": 40.424620, "greenLongitude": -3.712520, "par": 4 },
+      { "holeNumber": 12, "greenLatitude": 40.424760, "greenLongitude": -3.711620, "par": 3 },
+      { "holeNumber": 13, "greenLatitude": 40.424420, "greenLongitude": -3.710840, "par": 4 },
+      { "holeNumber": 14, "greenLatitude": 40.423760, "greenLongitude": -3.710420, "par": 4 },
+      { "holeNumber": 15, "greenLatitude": 40.423000, "greenLongitude": -3.710420, "par": 5 },
+      { "holeNumber": 16, "greenLatitude": 40.422360, "greenLongitude": -3.710860, "par": 3 },
+      { "holeNumber": 17, "greenLatitude": 40.421980, "greenLongitude": -3.711640, "par": 4 },
+      { "holeNumber": 18, "greenLatitude": 40.422180, "greenLongitude": -3.712520, "par": 4 }
+    ]
+  },
+  {
+    "id": "7F6A1D8C-2E57-4A61-8FE3-3B5A3C0C91D2",
+    "name": "Club de Golf Olivar de la Hinojosa",
+    "holes": [
+      { "holeNumber": 1, "greenLatitude": 40.468500, "greenLongitude": -3.600000, "par": 4 },
+      { "holeNumber": 2, "greenLatitude": 40.468400, "greenLongitude": -3.603100, "par": 5 },
+      { "holeNumber": 3, "greenLatitude": 40.467700, "greenLongitude": -3.603900, "par": 4 },
+      { "holeNumber": 4, "greenLatitude": 40.466700, "greenLongitude": -3.604600, "par": 4 },
+      { "holeNumber": 5, "greenLatitude": 40.465800, "greenLongitude": -3.605100, "par": 3 },
+      { "holeNumber": 6, "greenLatitude": 40.464800, "greenLongitude": -3.604500, "par": 4 },
+      { "holeNumber": 7, "greenLatitude": 40.463800, "greenLongitude": -3.603400, "par": 5 },
+      { "holeNumber": 8, "greenLatitude": 40.462800, "greenLongitude": -3.602700, "par": 3 },
+      { "holeNumber": 9, "greenLatitude": 40.462100, "greenLongitude": -3.603900, "par": 4 },
+      { "holeNumber": 10, "greenLatitude": 40.462700, "greenLongitude": -3.606600, "par": 4 },
+      { "holeNumber": 11, "greenLatitude": 40.463700, "greenLongitude": -3.608000, "par": 3 },
+      { "holeNumber": 12, "greenLatitude": 40.465000, "greenLongitude": -3.607300, "par": 5 },
+      { "holeNumber": 13, "greenLatitude": 40.465900, "greenLongitude": -3.606200, "par": 3 },
+      { "holeNumber": 14, "greenLatitude": 40.466800, "greenLongitude": -3.606800, "par": 4 },
+      { "holeNumber": 15, "greenLatitude": 40.467600, "greenLongitude": -3.605700, "par": 4 },
+      { "holeNumber": 16, "greenLatitude": 40.468600, "greenLongitude": -3.607000, "par": 4 },
+      { "holeNumber": 17, "greenLatitude": 40.469100, "greenLongitude": -3.605800, "par": 5 },
+      { "holeNumber": 18, "greenLatitude": 40.467400, "greenLongitude": -3.604900, "par": 4 }
+    ]
+  },
+  {
+    "id": "B58C0E2C-0A8E-4B33-9238-3E314B19B32A",
+    "name": "Presidio Golf Course",
+    "holes": [
+      { "holeNumber": 1, "greenLatitude": 37.790000, "greenLongitude": -122.458000, "par": 4, "strokeIndex": 7, "teeDistancesMeters": { "black": 340, "white": 319, "blue": 310, "red": 292 } },
+      { "holeNumber": 2, "greenLatitude": 37.789200, "greenLongitude": -122.461000, "par": 5, "strokeIndex": 15, "teeDistancesMeters": { "black": 432, "white": 398, "blue": 376, "red": 320 } },
+      { "holeNumber": 3, "greenLatitude": 37.787800, "greenLongitude": -122.461800, "par": 4, "strokeIndex": 1, "teeDistancesMeters": { "black": 352, "white": 334, "blue": 318, "red": 274 } },
+      { "holeNumber": 4, "greenLatitude": 37.786800, "greenLongitude": -122.460900, "par": 3, "strokeIndex": 17, "teeDistancesMeters": { "black": 119, "white": 108, "blue": 99, "red": 79 } },
+      { "holeNumber": 5, "greenLatitude": 37.785900, "greenLongitude": -122.459600, "par": 4, "strokeIndex": 13, "teeDistancesMeters": { "black": 281, "white": 272, "blue": 264, "red": 234 } },
+      { "holeNumber": 6, "greenLatitude": 37.786600, "greenLongitude": -122.457600, "par": 4, "strokeIndex": 3, "teeDistancesMeters": { "black": 355, "white": 330, "blue": 317, "red": 270 } },
+      { "holeNumber": 7, "greenLatitude": 37.787900, "greenLongitude": -122.456600, "par": 3, "strokeIndex": 5, "teeDistancesMeters": { "black": 200, "white": 168, "blue": 160, "red": 133 } },
+      { "holeNumber": 8, "greenLatitude": 37.789400, "greenLongitude": -122.455800, "par": 4, "strokeIndex": 9, "teeDistancesMeters": { "black": 346, "white": 326, "blue": 318, "red": 246 } },
+      { "holeNumber": 9, "greenLatitude": 37.790700, "greenLongitude": -122.457000, "par": 5, "strokeIndex": 11, "teeDistancesMeters": { "black": 479, "white": 451, "blue": 402, "red": 339 } },
+      { "holeNumber": 10, "greenLatitude": 37.792100, "greenLongitude": -122.456500, "par": 5, "strokeIndex": 10, "teeDistancesMeters": { "black": 458, "white": 444, "blue": 429, "red": 358 } },
+      { "holeNumber": 11, "greenLatitude": 37.793300, "greenLongitude": -122.458100, "par": 4, "strokeIndex": 4, "teeDistancesMeters": { "black": 382, "white": 354, "blue": 341, "red": 272 } },
+      { "holeNumber": 12, "greenLatitude": 37.794100, "greenLongitude": -122.459600, "par": 4, "strokeIndex": 2, "teeDistancesMeters": { "black": 414, "white": 404, "blue": 336, "red": 258 } },
+      { "holeNumber": 13, "greenLatitude": 37.793400, "greenLongitude": -122.461300, "par": 3, "strokeIndex": 12, "teeDistancesMeters": { "black": 165, "white": 155, "blue": 143, "red": 110 } },
+      { "holeNumber": 14, "greenLatitude": 37.792000, "greenLongitude": -122.462200, "par": 4, "strokeIndex": 14, "teeDistancesMeters": { "black": 315, "white": 298, "blue": 278, "red": 270 } },
+      { "holeNumber": 15, "greenLatitude": 37.790500, "greenLongitude": -122.462900, "par": 3, "strokeIndex": 16, "teeDistancesMeters": { "black": 156, "white": 134, "blue": 122, "red": 118 } },
+      { "holeNumber": 16, "greenLatitude": 37.789200, "greenLongitude": -122.462200, "par": 4, "strokeIndex": 8, "teeDistancesMeters": { "black": 349, "white": 333, "blue": 309, "red": 252 } },
+      { "holeNumber": 17, "greenLatitude": 37.788500, "greenLongitude": -122.460000, "par": 4, "strokeIndex": 6, "teeDistancesMeters": { "black": 320, "white": 314, "blue": 306, "red": 257 } },
+      { "holeNumber": 18, "greenLatitude": 37.789900, "greenLongitude": -122.457800, "par": 5, "strokeIndex": 18, "teeDistancesMeters": { "black": 463, "white": 439, "blue": 425, "red": 378 } }
+    ]
+  }
+]

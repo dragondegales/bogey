@@ -19,6 +19,7 @@
 		7C010001A1B2C3D400000005 /* SampleCourseLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C010001A1B2C3D400000105 /* SampleCourseLoader.swift */; };
 		7C010001A1B2C3D400000006 /* sample_courses.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C010001A1B2C3D400000106 /* sample_courses.json */; };
 		7C010001A1B2C3D400000007 /* RoundExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C010001A1B2C3D400000107 /* RoundExport.swift */; };
+		7C010001A1B2C3D400000008 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7C010001A1B2C3D400000108 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		7C010001A1B2C3D400000105 /* SampleCourseLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCourseLoader.swift; sourceTree = "<group>"; };
 		7C010001A1B2C3D400000106 /* sample_courses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample_courses.json; sourceTree = "<group>"; };
 		7C010001A1B2C3D400000107 /* RoundExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundExport.swift; sourceTree = "<group>"; };
+		7C010001A1B2C3D400000108 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				7C010001A1B2C3D400000105 /* SampleCourseLoader.swift */,
 				7C010001A1B2C3D400000107 /* RoundExport.swift */,
 				7C010001A1B2C3D400000106 /* sample_courses.json */,
+				7C010001A1B2C3D400000108 /* PrivacyInfo.xcprivacy */,
 				1B3A8EE72F900949004A87A1 /* Assets.xcassets */,
 				1B3A8EE92F900949004A87A1 /* Preview Content */,
 			);
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C010001A1B2C3D400000006 /* sample_courses.json in Resources */,
+				7C010001A1B2C3D400000008 /* PrivacyInfo.xcprivacy in Resources */,
 				1B3A8EEB2F900949004A87A1 /* Preview Assets.xcassets in Resources */,
 				1B3A8EE82F900949004A87A1 /* Assets.xcassets in Resources */,
 			);
@@ -364,6 +368,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Bogey";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Bogey uses your location to show distance to the green and save your shot positions.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -395,6 +400,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Bogey";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Bogey uses your location to show distance to the green and save your shot positions.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

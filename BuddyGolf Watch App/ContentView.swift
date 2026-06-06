@@ -193,9 +193,9 @@ struct ContentView: View {
                 isShowingSettings = true
             } label: {
                 Image(systemName: "gearshape")
-                    .font(.system(size: isNarrow ? 11 : (isTight ? 12 : 13), weight: .semibold))
+                    .font(.system(size: isNarrow ? 16 : (isTight ? 17 : 18), weight: .semibold))
                     .foregroundStyle(.white.opacity(0.78))
-                    .frame(width: width, height: isNarrow ? 18 : 20)
+                    .frame(width: width, height: isNarrow ? 24 : 26)
                     .contentShape(Rectangle())
             }
             .buttonStyle(.plain)

@@ -779,65 +779,101 @@ private struct CourseSelectionView: View {
     let onSelect: (UUID) -> Void
     let onSelectMissingCourse: () -> Void
 
+    @State private var searchText = ""
+
     var body: some View {
         List {
-            if nearbyCourses.isEmpty {
-                Text(locationManager.currentLocation == nil ? "Finding nearby courses..." : "No nearby courses")
-                    .foregroundStyle(.white.opacity(0.7))
+            if searchText.isEmpty {
+                if nearbyCourses.isEmpty {
+                    Text(locationManager.currentLocation == nil ? "Finding nearby courses..." : "No nearby courses")
+                        .foregroundStyle(.white.opacity(0.7))
+                } else {
+                    ForEach(nearbyCourses) { nearbyCourse in
+                        Button {
+                            onSelect(nearbyCourse.course.id)
+                            dismiss()
+                        } label: {
+                            HStack {
+                                VStack(alignment: .leading, spacing: 3) {
+                                    Text(nearbyCourse.course.name)
+                                        .lineLimit(2)
+                                        .minimumScaleFactor(0.75)
+
+                                    Text(formatDistance(nearbyCourse.distanceMeters))
+                                        .font(.caption2)
+                                        .foregroundStyle(.white.opacity(0.58))
+                                }
+
+                                Spacer(minLength: 8)
+
+                                if !selectedMissingCourse && roundStore.selectedCourse?.id == nearbyCourse.course.id {
+                                    Image(systemName: "checkmark")
+                                }
+                            }
+                        }
+                    }
+                }
+
+                Button {
+                    onSelectMissingCourse()
+                    dismiss()
+                } label: {
+                    HStack {
+                        VStack(alignment: .leading, spacing: 3) {
+                            Text("Missing Course")
+                                .lineLimit(1)
+
+                            Text("Report this GPS location")
+                                .font(.caption2)
+                                .foregroundStyle(.white.opacity(0.58))
+                        }
+
+                        Spacer(minLength: 8)
+
+                        if selectedMissingCourse {
+                            Image(systemName: "checkmark")
+                        }
+                    }
+                }
             } else {
-                ForEach(nearbyCourses) { nearbyCourse in
-                    Button {
-                        onSelect(nearbyCourse.course.id)
-                        dismiss()
-                    } label: {
-                        HStack {
-                            VStack(alignment: .leading, spacing: 3) {
-                                Text(nearbyCourse.course.name)
+                if searchResults.isEmpty {
+                    Text("No courses found")
+                        .foregroundStyle(.white.opacity(0.7))
+                } else {
+                    ForEach(searchResults) { course in
+                        Button {
+                            onSelect(course.id)
+                            dismiss()
+                        } label: {
+                            HStack {
+                                Text(course.name)
                                     .lineLimit(2)
                                     .minimumScaleFactor(0.75)
 
-                                Text(formatDistance(nearbyCourse.distanceMeters))
-                                    .font(.caption2)
-                                    .foregroundStyle(.white.opacity(0.58))
-                            }
+                                Spacer(minLength: 8)
 
-                            Spacer(minLength: 8)
-
-                            if !selectedMissingCourse && roundStore.selectedCourse?.id == nearbyCourse.course.id {
-                                Image(systemName: "checkmark")
+                                if roundStore.selectedCourse?.id == course.id {
+                                    Image(systemName: "checkmark")
+                                }
                             }
                         }
                     }
                 }
             }
-
-            Button {
-                onSelectMissingCourse()
-                dismiss()
-            } label: {
-                HStack {
-                    VStack(alignment: .leading, spacing: 3) {
-                        Text("Missing Course")
-                            .lineLimit(1)
-
-                        Text("Report this GPS location")
-                            .font(.caption2)
-                            .foregroundStyle(.white.opacity(0.58))
-                    }
-
-                    Spacer(minLength: 8)
-
-                    if selectedMissingCourse {
-                        Image(systemName: "checkmark")
-                    }
-                }
-            }
         }
         .navigationTitle("Course")
+        .searchable(text: $searchText, prompt: "Search all courses")
     }
 
     private var nearbyCourses: [RoundStore.NearbyCourse] {
         roundStore.nearbyCourses(to: locationManager.currentLocation)
+    }
+
+    private var searchResults: [Course] {
+        let query = searchText.trimmingCharacters(in: .whitespaces).lowercased()
+        return roundStore.courses
+            .filter { $0.name.lowercased().contains(query) }
+            .sorted { $0.name < $1.name }
     }
 
     private func formatDistance(_ meters: Int) -> String {

@@ -112,14 +112,16 @@ struct SettingsView: View {
             return "Missing Course"
         }
 
-        if let closest = roundStore.closestCourse(to: locationManager.currentLocation) {
-            if closest.distanceMeters <= 10_000 {
-                return "\(closest.course.name) · \(formatDistance(closest.distanceMeters))"
-            }
-            return "Course not available"
+        guard let selected = roundStore.selectedCourse else {
+            return locationManager.currentLocation == nil ? "Finding nearby courses..." : "No course selected"
         }
 
-        return locationManager.currentLocation == nil ? "Finding nearby courses..." : "Course not available"
+        if let location = locationManager.currentLocation,
+           let nearby = roundStore.nearbyCourses(to: location).first(where: { $0.course.id == selected.id }) {
+            return "\(selected.name) · \(formatDistance(nearby.distanceMeters))"
+        }
+
+        return selected.name
     }
 
     private var courseStatusValue: String {
@@ -184,7 +186,7 @@ struct SettingsView: View {
             } label: {
                 HStack(spacing: 8) {
                     VStack(alignment: .leading, spacing: 6) {
-                        Text("Nearby Course")
+                        Text("Course")
                             .font(.system(size: 13, weight: .medium, design: .rounded))
                             .foregroundStyle(.white.opacity(0.68))
 

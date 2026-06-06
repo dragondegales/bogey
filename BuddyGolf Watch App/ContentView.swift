@@ -75,12 +75,24 @@ struct ContentView: View {
     }
 
     private func infoPage(isCompact: Bool, isTight: Bool) -> some View {
-        Text(distanceText)
-            .font(.system(size: isTight ? 42 : (isCompact ? 46 : 58), weight: .bold, design: .rounded))
-            .foregroundStyle(.white)
-            .minimumScaleFactor(0.45)
-            .lineLimit(1)
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+        VStack(spacing: 2) {
+            Text(distanceText)
+                .font(.system(size: isTight ? 42 : (isCompact ? 46 : 58), weight: .bold, design: .rounded))
+                .foregroundStyle(.white)
+                .minimumScaleFactor(0.45)
+                .lineLimit(1)
+                .frame(maxWidth: .infinity, alignment: .center)
+
+            if let name = roundStore.selectedCourse?.name {
+                Text(name)
+                    .font(.system(size: 11, weight: .medium, design: .rounded))
+                    .foregroundStyle(.white.opacity(0.5))
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.75)
+                    .frame(maxWidth: .infinity, alignment: .center)
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
     }
 
     private func railSlotWidth(isCompact: Bool, isTight: Bool, isNarrow: Bool) -> CGFloat {
